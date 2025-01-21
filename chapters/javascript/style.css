@@ -75,3 +75,34 @@ h1::before {
     background-color: rgba(0,0,0,0.5);
     z-index: -1;
 }
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+main section {
+    background-color: #003049;
+    padding: 10px;
+    font-size: larger;
+    margin: 20px;
+    border-radius: 10px;
+    flex: 1 1 30%;
+    box-sizing: border-box;
+}
+
+main h2 {
+    text-align: center;
+    color: #fdf0d5;
+    background-color: #669bbc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+table, td, th {
+    color: #fdf0d5;
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+}
