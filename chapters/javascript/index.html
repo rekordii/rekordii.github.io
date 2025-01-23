@@ -294,6 +294,129 @@
                     </tbody>
                 </table>
             </section>
+            <section class="classes">
+                <h2>Classes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Static Keyword:</td>
+                            <td>called on class not instances(static function)</td>
+                        </tr>
+                        <tr>
+                            <td>Class:</td>
+                            <td>clas name {}</td>
+                        </tr>
+                        <tr>
+                            <td>Constructing:</td>
+                            <td>constructor(param,...) {this._...}</td>
+                        </tr>
+                        <tr>
+                            <td>Syntax:</td>
+                            <td>no commas between properties (see objects)</td>
+                        </tr>
+                        <tr>
+                            <td>Inheritance:</td>
+                            <td>class name extends otherName {}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="errors">
+                <h2>Error Handling</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Throw (stop program):</td>
+                            <td>throw Error("...")</td>
+                        </tr>
+                        <tr>
+                            <td>Error Function:</td>
+                            <td>Error("...") wont stop the program</td>
+                        </tr>
+                        <tr>
+                            <td>Try..catch:</td>
+                            <td>try something and if not successful do catch block</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="testing">
+                <h2>Tests with Mocha</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Assert:</td>
+                            <td>const assert = require("assert");</td>
+                        </tr>
+                        <tr>
+                            <td>Assert ok:</td>
+                            <td>assert.ok(exp) -> if false -> error</td>
+                        </tr>
+                        <tr>
+                            <td>Assert Equality:</td>
+                            <td>assert.equal(,) loose equality (==)(better than assert.ok)</td>
+                        </tr>
+                        <tr>
+                            <td>Strict Equality:</td>
+                            <td>assert.strictEqual(,) (===)</td>
+                        </tr>
+                        <tr>
+                            <td>Deep Equality (loose within objects):</td>
+                            <td>assert.deepEqual(,) (==)</td>
+                        </tr>
+                        <tr>
+                            <td>Before (for test files):</td>
+                            <td>before(callback func) prepare testcode</td>
+                        </tr>
+                        <tr>
+                            <td>Before Each:</td>
+                            <td>beforeEach(callback func) prepare/reset</td>
+                        </tr>
+                        <tr>
+                            <td>After:</td>
+                            <td>after(callback func) reset</td>
+                        </tr>
+                        <tr>
+                            <td>After Each:</td>
+                            <td>afterEach(callback func) reset</td>
+                        </tr>
+                        <tr>
+                            <td>Describe (group tests)(can be nested):</td>
+                            <td>describe("", () => {});</td>
+                        </tr>
+                        <tr>
+                            <td>Individual Test:</td>
+                            <td>it("", () => {});</td>
+                        </tr>
+                        <tr>
+                            <td>Setup -> Exercise -> Verify:</td>
+                            <td>create objects, vars, set conds -> execute functionality -> assert...</td>
+                        </tr>
+                        <tr>
+                            <td>Teardown:</td>
+                            <td>Reset testing environment (goal isolation)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
         </main>
     </body>
 </html>
