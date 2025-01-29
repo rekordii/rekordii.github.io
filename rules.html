@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blackjack Rules</title>
+        <link rel="stylesheet" type="text/css" href="ruleStyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap" rel="stylesheet">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="./ressources/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./ressources/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./ressources/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./ressources/favicon/site.webmanifest">
+    </head>
+    <body>
+        <header>
+            <nav class="rules-nav">
+                <a href ="./index.html">Back</a>
+            </nav>
+        </header>
+        <h1>Main Blackjack Rules</h1>
+        <main>
+            <section class="rules" id="rule-1">
+                <h2>General</h2>
+                <ul>
+                    <li>Every player plays against the dealer.</li>
+                    <li>Goal: Get a higher hand than the dealer but below 22.</li>
+                    <li>If you beat the dealer you win your bet. Otherwise you lose it.</li>
+                </ul>
+            </section>
+            <section class="rules" id="rule-2">
+                <h2>Objective</h2>
+                <ul>
+                    <li>Only beating the dealer can win a bet.</li>
+                    <li>If a player's hand gets over 21 he loses through busting.</li>
+                    <li>Card Values:
+                        <ul>
+                            <li><strong>2 through 10:</strong> Just the number on the card.</li>
+                            <li><strong>Jack, Queen, King:</strong> 10 Points.</li>
+                            <li><strong>Ace:</strong> 1 or 11 Points(what fits best).</li>
+                            <li><strong>Blackjack:</strong> 21 Points gained through only 2 cards.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="rules" id="rule-3">
+                <h2>Game Start</h2>
+                <ul>
+                    <li>There are several Decks used for playing.</li>
+                    <li>The dealer hands one card to every player <br>and places one card face-down in front of him.</li>
+                    <li>The dealer hands out a second card to everyone.</li>
+                </ul>
+            </section>
+            <section class="rules" id="rule-4">
+                <h2>Main Game Action</h2>
+                <ul>
+                    <li>The Player to the left of the dealer starts.</li>
+                    <li>Take a look at your cards and decide if you hit or stay.</li>
+                    <li><strong>Staying:</strong> will close the round for you! You dont get another card.</li>
+                    <li><strong>Hitting:</strong> You will get another card and continue.</li>
+                </ul>
+            </section>
+            <section class="rules" id="rule-5">
+                <h2>Game End</h2>
+                <ul>
+                    <li>Every player finished (either busting or staying).</li>
+                    <li>The dealer reveals their original card.</li>
+                    <li>Dealer Actions:
+                        <ul>
+                            <li>If the total is 16 or lower: <strong>Hit.</strong></li>
+                            <li>If the total is 17 or higher: <strong>Stay.</strong></li>
+                        </ul>
+                    </li>
+                    <li>If the dealer gets a Blackjack everyone loses.</li>
+                </ul>
+            </section>
+        </main>
+    </body>
+    <script type="module" src="./rules.js"></script>
+</html>
